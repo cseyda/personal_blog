@@ -7,6 +7,7 @@ SITENAME = 'My blog'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['static']
 
 TIMEZONE = 'Europe/Paris'
 
@@ -20,16 +21,22 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = ()
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('linkedin', 'https://de.linkedin.com/in/christian-seyda-73b37ba3'),
+          ('github', 'https://github.com/cseyda'),
+          ('twitter', 'https://twitter.com/ChristianSeyda'))
 
 DEFAULT_PAGINATION = False
+
+TYPOGRIFY = True
+# Pelican settings
+THEME = '/home/seydanator/pelican-themes/pelican-blue/'
+SIDEBAR_DIGEST = 'Programmer and Web Developer'
+FAVICON = 'url-to-favicon'
+DISPLAY_PAGES_ON_MENU = True
+TWITTER_USERNAME = 'ChristianSeyda'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

@@ -1,14 +1,14 @@
 Title: My bachelor's thesis
-Date: 2010-12-03 10:20
+Date: 2011-03-28
 Category: Python
 Tags: pelican, publishing
 Slug: bachelor-thesis
-Summary: Short version for index and feeds
+Summary: My bachelor's thesis Estimation of Power Consumption of DVFS-Enabled Processors
 
 # Estimation of Power Consumption of DVFS-Enabled Processors
+[Link to the PDF]({filename}/static/BA.pdf)
 
 ## Abstract
-
 Saving energy is nowadays a critical factor, especially for data centers or high performance clusters which have a power consumption of several mega watts. The simple use of component energy saving mechanisms is not always possible, because this can lead to performance degradation. For this reason, high performance clusters are mainly not using them, even in low utilization phases. Modelling the power consumption of a component based on specific recordable values can help to find ways of saving energy or predicting the power consumption after replacing the component with a more efficient
 one.
 

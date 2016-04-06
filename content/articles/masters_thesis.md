@@ -1,11 +1,12 @@
 Title: My master's thesis
-Date: 2010-12-03 10:20
+Date: 2013-12-06
 Category: Python
 Tags: pelican, publishing
 Slug: master-thesis
-Summary: Short version for index and feeds
+Summary: My master's thesis Comparison of graph-based and vector-space geographical topic detection
 
 # Comparison of graph-based and vector-space geographical topic detection
+[Link to the PDF]({filename}/static/MA.pdf)
 
 ## Abstract
 The popularity of social networks like Facebook and Twitter, together with media sharing plattforms like Flickr and the ubiquity of modern smart phones and cameras with GPS sensors have lead to a vast amount of data with documents containing locations, text, and even more information. this data can be leveraged to optimise search results, perform targeted advertisement and even help people and authorities in case of nature catastrophes, for example as early warning systems. Geographic topic detection aims at providing meaningful topics for specific regions. One way to perform this task is to use a clustering algorithm with an appropriate distance function.
